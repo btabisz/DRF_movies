@@ -23,4 +23,5 @@ class Vote(models.Model):
     reason = models.TextField(max_length=100)
 
     def __str__(self):
-        return ''
+        return ""
+
